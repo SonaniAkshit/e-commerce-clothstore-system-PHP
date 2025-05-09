@@ -1,6 +1,6 @@
 # 🛍️ Fashion Fusion 
 
-**Modern E-Commerce Clothing Store
+**Modern E-Commerce Clothing Store**
 
 ## 📝 Overview
 
@@ -33,7 +33,7 @@ Fashion Fusion is a modern, responsive e-commerce platform built with PHP, desig
 ## 🖼️ Screenshots
 
 ### Home Page
-![Home Page](carlux/screenshots/home.png)
+![Home Page](/screenshots/home.png)
 
 ### User Profile
 ![User Profile](carlux/screenshots/userprofile.png)
