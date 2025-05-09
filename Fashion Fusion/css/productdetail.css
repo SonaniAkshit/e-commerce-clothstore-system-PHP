@@ -1,0 +1,107 @@
+/* Original CSS code */
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+* {
+  font-family: "Comfortaa", sans-serif;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: all .2s linear;
+  text-transform: capitalize;
+}
+
+body {
+  background-image: radial-gradient(circle at 13% 47%, rgba(140, 140, 140, 0.03) 0%, rgba(140, 140, 140, 0.03) 25%, transparent 25%, transparent 100%), radial-gradient(circle at 28% 63%, rgba(143, 143, 143, 0.03) 0%, rgba(143, 143, 143, 0.03) 16%, transparent 16%, transparent 100%), radial-gradient(circle at 81% 56%, rgba(65, 65, 65, 0.03) 0%, rgba(65, 65, 65, 0.03) 12%, transparent 12%, transparent 100%), radial-gradient(circle at 26% 48%, rgba(60, 60, 60, 0.03) 0%, rgba(60, 60, 60, 0.03) 6%, transparent 6%, transparent 100%), radial-gradient(circle at 97% 17%, rgba(150, 150, 150, 0.03) 0%, rgba(150, 150, 150, 0.03) 56%, transparent 56%, transparent 100%), radial-gradient(circle at 50% 100%, rgba(25, 25, 25, 0.03) 0%, rgba(25, 25, 25, 0.03) 36%, transparent 36%, transparent 100%), radial-gradient(circle at 55% 52%, rgba(69, 69, 69, 0.03) 0%, rgba(69, 69, 69, 0.03) 6%, transparent 6%, transparent 100%), linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255));
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.product-div {
+  margin-top: 20px;
+  margin-right: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-radius: 3px;
+  column-gap: 10px;
+}
+
+.product-div-left {
+  padding: 20px;
+}
+
+.product-div-right {
+  padding: 20px;
+}
+
+.img-container img {
+  width: 60%;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.product-div-right span {
+  display: block;
+}
+
+.product-name {
+  margin-top: 5%;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.product-price {
+  margin-top: 20px;
+  font-size: 30px;
+  color: #f84258;
+}
+
+.product-description {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-top: 15px;
+}
+
+.btn-groups {
+  margin-top: 22px;
+}
+
+.btn-groups button,
+input[type=submit] {
+  display: inline-block;
+  font-size: 16px;
+  font-family: inherit;
+  text-transform: uppercase;
+  padding: 10px 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.add-cart-btn {
+  background-color: #f84258;
+  border: 2px solid #f84258;
+  margin-right: 8px;
+}
+
+.add-cart-btn:hover {
+  background-color: #fff;
+  color: #f84258;
+}
+
+.buy-now-btn {
+  background-color: #000;
+  border: 2px solid #000;
+}
+
+.buy-now-btn:hover {
+  background-color: #fff;
+  color: #000;
+}

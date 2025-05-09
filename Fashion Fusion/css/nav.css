@@ -1,0 +1,40 @@
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    height:14%;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    position:fixed;
+    /* position:absolute; */
+    width: 100%;
+    top:0;
+    z-index: 2;
+}
+a{
+    text-decoration: none;
+}
+.logo img{
+    margin-top: 1.5%;
+    width: 30%;
+}
+nav a{
+    color:black;
+}
+nav a:hover{
+    color:#f84258;
+    text-decoration:none;
+}
+#active{
+    color:#f84258;
+}
+
+.nav-links{
+    display:flex;
+    list-style: none;
+    width:150%;
+    justify-content: space-around;
+    font-size:18px;
+    font-weight: 15px;
+    font-family: 'Montserrat', sans-serif;
+}

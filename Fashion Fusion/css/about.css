@@ -1,0 +1,19 @@
+.about-grids1,.about-grids2{
+    padding-left: 40px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.about-grids2{
+    padding-right:40px;
+    grid-gap:10px;
+}
+
+.about-grids1{
+    padding-top: 10px;
+    padding-right:30px;
+    grid-gap:20px;
+}
+.about-grids2 img:nth-child(2){
+    padding-top: 70px;
+}

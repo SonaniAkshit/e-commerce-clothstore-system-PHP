@@ -1,0 +1,243 @@
+
+.display-product-table table{
+   width: 100%;
+   text-align: center;
+   border: 0.5px solid #ff8795;
+   border-radius: 5px;
+   margin-top: 5%;
+   margin-left: -5%;
+}
+
+.display-product-table table thead th{
+   padding:5px;
+   font-size: 20px;
+   border: 0.5px solid #000;
+   border-radius: 5px;
+
+}
+
+.display-product-table table td{
+   font-size: 20px;
+   border: 0.5px solid #ff8795;
+   color:#333;
+}
+.display-product-table .empty{
+   margin-bottom: 2rem;
+   text-align: center;
+   background-color: #eee;
+   color:#333;
+   font-size: 20px;
+   padding:1.5rem;
+}
+.message{
+   margin-top: 2%;;
+   margin-bottom: -3%;
+   border: 1px solid #9a8c98;
+   width: 50%;
+   line-height: 200%;
+   border-radius: 10px;
+   font-size: 20px;
+ }
+ .option-btn{
+   margin-left: 10%;
+   margin-bottom: 3%;;
+   margin-top: 5%;
+   display: block;
+   width: 80%;
+   padding: 5px;
+   text-align: center;
+   color:#000;
+   border: 1px solid #9a8c98;
+   font-size: 20px;
+   border-radius: .5rem;
+   cursor: pointer;
+}
+ .delete-btn{
+   margin-left: 10%;
+   display: block;
+   width: 80%;
+   padding: 5px;
+   text-align: center;
+   color:#000;
+   border: 1px solid #9a8c98;
+   font-size: 20px;
+   border-radius: .5rem;
+   cursor: pointer;
+}
+
+.option-btn i,
+.delete-btn i{
+   padding-right: .5rem;
+}
+
+/* ===FOR MEN=== */
+.edit-form-container {
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 1100;
+   padding: 2rem;
+   background-color: rgba(0,0,0,.7);
+   display: none;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   width: 100%;
+ }
+ 
+ .edit-form-container form {
+   margin-top: -20px;
+   width: 40%; 
+   border-radius: 0.5rem;
+   background-color: #fff;
+   border: 1px solid #000;
+   text-align: center;
+   padding: 2rem;
+ }
+ 
+ .edit-form-container form .box {
+   width: 100%;
+   height: 10px;
+    border: 1px solid #000;
+   border-radius: 10px;
+   margin: 10px;
+   font-size: 15px;
+   color: #333;
+   padding: 25px;
+ }
+ .edit-form-container form .delete-btn {
+   margin-left:15%;
+   display: block;
+   width: 70%;
+   text-align: center;
+   background-color: #ff8795;
+   border: none;
+   color:#fff;
+   font-size: 15px;
+   padding:10px;
+   border-radius: .5rem;
+   cursor: pointer;
+   margin-top: 1rem;
+ }
+/* ===FOR WOMEN=== */
+ .edit-form-container1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1100;
+  padding: 2rem;
+  background-color: rgba(0,0,0,.7);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+ }
+ 
+ .edit-form-container1 form {
+   margin-top: -20px;
+   width: 40%; 
+   border-radius: 0.5rem;
+   background-color: #fff;
+   border: 1px solid #000;
+   text-align: center;
+   padding: 2rem;
+ }
+ 
+ .edit-form-container1 form .box {
+   width: 100%;
+   height: 10px;
+   background-color: #eee;
+   border-radius: 10px;
+   border: 1px solid #000;
+   margin: 10px;
+   font-size: 15px;
+   color: #333;
+   padding: 25px;
+ }
+ .edit-form-container1 form .delete-btn {
+  margin-left:15%;
+  display: block;
+  width: 70%;
+  text-align: center;
+  background-color: #ff8795;
+  border: none;
+  color:#fff;
+  font-size: 15px;
+  padding:10px;
+  border-radius: .5rem;
+  cursor: pointer;
+  margin-top: 1rem;
+ }
+ 
+
+ /* ===FOR KIDS=== */
+ .edit-form-container2 {
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 1100;
+   padding: 2rem;
+   display: none;
+   background-color: rgba(0,0,0,.7);
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   width: 100%;
+ }
+ 
+ .edit-form-container2 form {
+   margin-top: -20px;
+   width: 40%; 
+   border-radius: 0.5rem;
+   background-color: #fff;
+   border: 1px solid #000;
+   text-align: center;
+   padding: 2rem;
+ }
+ 
+ .edit-form-container2 form .box {
+   width: 100%;
+   height: 10px;
+   background-color: #eee;
+   border-radius: 10px;
+   border: 1px solid #000;
+   margin: 10px;
+   font-size: 15px;
+   color: #333;
+   padding: 25px;
+ }
+ .edit-form-container2 form .delete-btn {
+   margin-left: -0.8%;
+   display: block;
+   margin-left:15%;
+   display: block;
+   width: 70%;
+   text-align: center;
+   background-color: #ff8795;
+   border: none;
+   color:#fff;
+   font-size: 15px;
+   padding:10px;
+   border-radius: .5rem;
+   cursor: pointer;
+   margin-top: 1rem;
+ }
+ img{
+  border-radius: 10px;
+  width: 40%;
+ }
+ .brand img{
+  width: 77%;
+ }
+ a{
+  color: #000;
+ }
+ .bi{
+  font-size: 30px;
+ }
+ .orderbtn{
+  background: none;
+  color: #000;
+  font-size: 50px;
+ }

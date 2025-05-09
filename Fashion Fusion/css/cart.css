@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+*{
+  font-family: "Comfortaa", sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline: none; border:none;
+  text-decoration: none;
+  transition: all .2s linear;
+  text-transform: capitalize;
+}
+
+html{
+   font-size: 62.5%;
+   overflow-x: hidden;
+}
+body{
+   background-image: radial-gradient(circle at 13% 47%, rgba(140, 140, 140,0.03) 0%, rgba(140, 140, 140,0.03) 25%,transparent 25%, transparent 100%),radial-gradient(circle at 28% 63%, rgba(143, 143, 143,0.03) 0%, rgba(143, 143, 143,0.03) 16%,transparent 16%, transparent 100%),radial-gradient(circle at 81% 56%, rgba(65, 65, 65,0.03) 0%, rgba(65, 65, 65,0.03) 12%,transparent 12%, transparent 100%),radial-gradient(circle at 26% 48%, rgba(60, 60, 60,0.03) 0%, rgba(60, 60, 60,0.03) 6%,transparent 6%, transparent 100%),radial-gradient(circle at 97% 17%, rgba(150, 150, 150,0.03) 0%, rgba(150, 150, 150,0.03) 56%,transparent 56%, transparent 100%),radial-gradient(circle at 50% 100%, rgba(25, 25, 25,0.03) 0%, rgba(25, 25, 25,0.03) 36%,transparent 36%, transparent 100%),radial-gradient(circle at 55% 52%, rgba(69, 69, 69,0.03) 0%, rgba(69, 69, 69,0.03) 6%,transparent 6%, transparent 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
+   background-attachment: fixed;
+}
+ .logo1 img{
+   height: 50%;
+    width: 50%;
+}
+.container{
+   max-width: 1200px;
+   margin:0 auto;
+}
+
+section{
+   padding:2rem;
+}
+
+.heading{
+   margin-top: 60px;
+   text-align: center;
+   font-size: 3.5rem;
+   text-transform: uppercase;
+   color:#f84258;
+}
+
+.btn{
+   display: block;
+   width: 100%;
+   text-align: center;
+   background-color: #000;
+   font-size: 1.7rem;
+   color: #fff;
+   padding:1.2rem 3rem;
+   border-radius: 10px;
+   cursor: pointer;
+   margin-top: 1rem;
+   transition: .5s;
+}
+.btn:hover{
+   background-color: #f84258;
+}
+
+.delete-btn{
+   display: block;
+   margin-left: 30%;
+   width: 50%;
+   text-align: center;
+   color:#000;
+   font-size: 1.7rem;
+   padding:5px 5px;
+   border-radius: 5px;
+   cursor: pointer;
+   margin-top: 1rem;
+}
+.option-btn i,
+.delete-btn i{
+   padding-right: .5rem;
+}
+
+.shopping-cart table{
+   text-align: center;
+   width: 100%;
+}
+i{
+   font-size: 40px;
+}
+i:hover{
+   color: #f84258;
+   transition: .5s;
+}
+
+.shopping-cart table thead th{
+   font-size: 2rem;
+   color:#000;
+   border: 1px solid #333;
+}
+
+.shopping-cart table tr td{
+   border: 1px solid #cca7a7;
+   font-size: 2rem;
+   color:#f84258;
+}
+
+.shopping-cart table input[type="number"]{
+   border: .1rem solid #999;
+   padding:1rem 2rem;
+   font-size: 2rem;
+   color:#333;
+   width: 10rem;
+}
+
+.shopping-cart table input[type="submit"]{
+   padding:.5rem 1.5rem;
+   cursor: pointer;
+   font-size: 2rem;
+   background-color: #f84258;
+   color:#fff;
+}
+
+.shopping-cart table .table-bottom{
+   background-color: #eee;
+}
+
+.shopping-cart .checkout-btn{
+   text-align: center;
+   margin-top: 1rem;
+}
+
+.shopping-cart .checkout-btn a{
+   display: inline-block;
+   width: auto;
+}
+.billbtn{
+   background: none;
+   color: #f84258;
+   font-size: 30px;
+   transition: transform 0.5s ease;
+   cursor: pointer;
+}
+.billbtn:hover{
+   color: blue;
+   border-bottom: 1px solid blue ;
+   transform: scale(1.1);
+}
