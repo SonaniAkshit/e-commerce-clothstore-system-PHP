@@ -15,10 +15,10 @@
 ### Product Categories
 ![Product Details](clothcategory.png)
 
-### Mans Ware
+### Man's Ware
 ![Product Details](man'sware.png)
 
-### Womans Ware
+### Woman's Ware
 ![Product Details](woman'sware.png)
 
 ### Kids Ware
