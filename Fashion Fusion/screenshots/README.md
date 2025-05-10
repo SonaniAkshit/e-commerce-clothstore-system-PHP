@@ -1,52 +1,58 @@
-## 🖼️ Screenshots
+# 🖼️ Screenshots
 
-### Signup
+## Signup
 ![Product Details](signup.png)
 
-### Signin
+## Signin
 ![Product Details](signin.png)
 
-### User Profile
+## User Profile
 ![User Profile](user-profile.png)
 
-### Home Page
+## Home Page
 ![Home Page](home.png)
 
-### Product Categories
+## Product Categories
 ![Product Details](clothcategory.png)
 
-### Man's Ware
+## Man's Ware
 ![Product Details](man'sware.png)
 
-### Woman's Ware
+## Woman's Ware
 ![Product Details](woman'sware.png)
 
-### Kids Ware
+## Kids Ware
 ![Product Details](kidsware.png)
 
-### Product Details
+## Product Details
 ![Product Details](productdetail.png)
 
-### Product Cart
+## Product Cart
 ![Product Cart](productcart.png)
 
-### Place Order
+## Place Order
 ![Product Details](placeorder.png)
 
-### Order Invoice
+## Order Invoice
 ![Product Details](user-invoice.png)
 
-### Admin Profile
+## Admin Profile
 ![User Profile](admin-profile.png)
 
-### Admin Dashboard
+## Admin Dashboard
 ![Admin Dashboard](admin-dashbord.png)
 
-### Admin Manage Products
+## User Logs
+![User Profile](admin-users.png)
+
+## Manage Products
 ![User Profile](admin-manage-product.png)
 
-### Admin Mange Orders
-![User Profile](admin-manage-orders.png)
+## Orders
+![User Profile](orders.png)
 
-### Admin User Logs
-![User Profile](admin-users.png)
+## Pending Orders
+![User Profile](pendingorders.png)
+
+## Approved Orders
+![User Profile](approvedorder.png)
