@@ -36,7 +36,7 @@ Fashion Fusion is a modern, responsive e-commerce platform built with PHP, desig
 ![Home Page](Fashion%20Fusion/screenshots/home.png)
 
 ### Show More
->[Screenshots](https://github.com/SonaniAkshit/e-commerce-clothstore-system-PHP/tree/main/Fashion%20Fusion/screenshots/README.md)
+>[More Screenshots...](https://github.com/SonaniAkshit/e-commerce-clothstore-system-PHP/tree/main/Fashion%20Fusion/screenshots/README.md)
 
 ## 🛠️ Technical Stack
 

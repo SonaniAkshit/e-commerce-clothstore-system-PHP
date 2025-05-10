@@ -1,4 +1,4 @@
-# 🖼️ Screenshots
+# 🖼️ Project Screenshots
 
 ## Signup
 ![Product Details](signup.png)
