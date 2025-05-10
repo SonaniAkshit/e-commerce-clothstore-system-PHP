@@ -49,7 +49,7 @@ Fashion Fusion is a modern, responsive e-commerce platform built with PHP, desig
 
 
 ### Show More
->[Screenshots](https://github.com/SonaniAkshit/Car-Booking-System-PHP/tree/main/carlux/screenshots)
+>[Screenshots](https://github.com/SonaniAkshit/e-commerce-clothstore-system-PHP/tree/main/Fashion%20Fusion/screenshots)
 
 ## 🛠️ Technical Stack
 
